@@ -8,7 +8,7 @@ public class HoaDon {
     HoaDonHeader hoaDonHeader;
     ArrayList<CTHD> cthds = new ArrayList<CTHD>();
 
-    public HoaDon(HoaDonBuilder hoaDonBuilder) {
+    private HoaDon(HoaDonBuilder hoaDonBuilder) {
         this.hoaDonHeader = hoaDonBuilder.hoaDonHeader;
         this.cthds = hoaDonBuilder.cthds;
     }
