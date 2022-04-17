@@ -1,6 +1,6 @@
-package structural.decorator.heverage;
+package structural.decorator.beverage;
 
-public class Beverage {
+public abstract class Beverage {
     String decription;
 
     public Beverage(String decription) {

@@ -1,2 +1,20 @@
-package structural.decorator.bieuthuc;public class Cong {
+package structural.decorator.bieuthuc;
+
+public class Cong extends BieuThucDecorator{
+    private float toanHang;
+
+    public Cong(BieuThuc bieuThuc, float toanHang) {
+        super(bieuThuc);
+        this.toanHang = toanHang;
+    }
+
+    @Override
+    public float giaTri() {
+        return bieuThuc.giaTri() + toanHang;
+    }
+
+    @Override
+    public String bieuThuc() {
+        return bieuThuc.bieuThuc() + " + " + toanHang;
+    }
 }
