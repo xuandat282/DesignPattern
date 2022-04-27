@@ -28,14 +28,10 @@ public class Election {
             }
         }
     }
-
     public int getDonaldTrump() {
         return DonaldTrump;
     }
-
     public int getJoeBiden() {
         return JoeBiden;
     }
-
-
 }

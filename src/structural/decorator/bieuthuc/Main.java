@@ -8,6 +8,7 @@ public class Main {
         bt = new Nhan(bt, 5);
         bt = new Cong(bt, 8);
         bt = new Tru(bt, 4);
+        bt = new TriTuyetDoi(bt);
         System.out.println(bt.giaTri());
         System.out.println(bt.bieuThuc());
     }

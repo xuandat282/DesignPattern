@@ -15,6 +15,6 @@ public class Chia extends BieuThucDecorator{
 
     @Override
     public String bieuThuc() {
-        return bieuThuc.bieuThuc() + " / " + toanHang;
+        return "(" + bieuThuc.bieuThuc() + ")" + " / " + toanHang;
     }
 }

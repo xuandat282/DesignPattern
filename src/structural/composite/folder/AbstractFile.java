@@ -1,6 +1,6 @@
 package structural.composite.folder;
 
-public abstract class AbtractFile {
+public abstract class AbstractFile {
     String ten, path;
     String ngay;
     String preStr = "";
