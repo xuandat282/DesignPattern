@@ -9,7 +9,7 @@ public class TinMain {
         topic.capNhatTin(t1,"Di pay");
         topic.taoTin("Di ve");
         b.huyDangKy(topic);
-        topic.taoTin("Di ia");
+        topic.taoTin("Di ngu");
         ThanhVienA a = new ThanhVienA(topic);
         topic.taoTin("di cf");
         System.out.println(topic);
