@@ -1,4 +1,4 @@
-package behavioral.chain_of_responsibility;
+package behavioral.chain_of_responsibility.xeploai;
 
 public class YeuKem implements IXepLoai{
     String nhan;

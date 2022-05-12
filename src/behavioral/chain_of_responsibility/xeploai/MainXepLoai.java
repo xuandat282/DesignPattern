@@ -1,4 +1,4 @@
-package behavioral.chain_of_responsibility;
+package behavioral.chain_of_responsibility.xeploai;
 
 public class MainXepLoai {
     public static void main(String[] args) {
