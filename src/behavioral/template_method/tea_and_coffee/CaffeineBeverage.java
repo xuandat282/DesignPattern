@@ -1,9 +1,15 @@
 package behavioral.template_method.tea_and_coffee;
 
 public abstract class CaffeineBeverage {
-    public abstract void prepareRecipe();
-    public abstract void boilWater();
-    public abstract void purInCup();
+    public void prepareRecipe(){
+        System.out.println("Chuẩn bị công thức");
+    };
+    public void boilWater(){
+        System.out.println("Đun nước");
+    };
+    public void purInCup(){
+        System.out.println("Cho nước vào ly");
+    };
     public abstract void brew();
     public abstract void addCondiment();
 }
