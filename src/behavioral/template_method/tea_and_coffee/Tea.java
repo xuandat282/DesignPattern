@@ -10,12 +10,5 @@ public class Tea extends CaffeineBeverage {
     public void addCondiment() {
         System.out.println("Thêm chanh");
     }
-    public void phucVu(){
-        System.out.println("-----------------");
-        System.out.println("Phục vụ trà");
-        prepareRecipe();
-        boilWater();
-        brew();
-        addCondiment();
-    }
+
 }

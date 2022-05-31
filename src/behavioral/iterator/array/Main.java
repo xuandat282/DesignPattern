@@ -1,12 +1,15 @@
-package builderpatterm.Iterator.Array;
+package behavioral.iterator.array;
 
 public class Main {
     public static void main(String[] args) {
-        ArrayAggreate arrayAggreate = new ArrayAggreate();
-        Iiterator iiterator = arrayAggreate.CreateIterator();
-        System.out.println(arrayAggreate.toString());
-        iiterator.getItem(9);
-        iiterator.getItem(3);
-        System.out.println("Số phần tử của mảng: " + iiterator.count());
+        ArrayAgg a = new ArrayAgg(new int[]{1,2,3,4,5});
+        MyInter in = a.createIter();
+        in.first();
+        System.out.println(in.next());
+        while(!in.isDone())
+        {
+            System.out.println(in.currentItem());
+            in.next();
+        }
     }
 }

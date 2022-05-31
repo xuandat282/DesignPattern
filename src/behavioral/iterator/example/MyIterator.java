@@ -1,4 +1,4 @@
 package behavioral.iterator.example;
 
-public interface Iterator {
+public interface MyIterator {
 }

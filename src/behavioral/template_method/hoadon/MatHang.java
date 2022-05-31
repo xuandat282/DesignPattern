@@ -1,6 +1,6 @@
 package behavioral.template_method.hoadon;
 
-public class HangHoa {
+public class MatHang {
     String ten;
     int soLuong;
     double donGia;

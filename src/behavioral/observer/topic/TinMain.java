@@ -13,7 +13,5 @@ public class TinMain {
         ThanhVienA a = new ThanhVienA(topic);
         topic.taoTin("di cf");
         System.out.println(topic);
-
-
     }
 }
