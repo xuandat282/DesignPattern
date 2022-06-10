@@ -13,6 +13,6 @@ public class MainTienDien {
                 .bacTiepTheo(b4)
                 .bacTiepTheo(b5)
                 .bacTiepTheo(b6);
-        System.out.println(b1.soKwh(450));
+        System.out.println(b1.soKwh(202));
     }
 }

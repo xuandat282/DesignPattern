@@ -4,8 +4,8 @@ public class main {
     public static void main(String[] args) {
         factoryGioHang sp = new factoryGioHang();
 
-        hangHoa h1 = new hangHoa("but",2,1000);
-        hangHoa h2 = new hangHoa("vo",1,2000);
+        hangHoa h1 = new hangHoa("sach",2,10000);
+        hangHoa h2 = new hangHoa("but",1,2000);
 
         gioHang gh = sp.creatGioHang(TypeThanhToan.COD);
         gh.hd.add(h1);

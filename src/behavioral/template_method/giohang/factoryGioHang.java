@@ -12,7 +12,7 @@ public class factoryGioHang {
     }
     void in()
     {
-        System.out.println("danh sach thanh tien cua all hoa");
+        System.out.println("danh sach thanh tien cua tat ca hang hoa");
         dshd.forEach(gioHang -> System.out.println((gioHang.tinhTien()-gioHang.tinhChietKhau())));
     }
     gioHang creatGioHang(TypeThanhToan tt)
