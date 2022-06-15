@@ -17,7 +17,5 @@ public class ATMMain {
         xuan.rutThe();
         System.out.println("Giao dịch lần 3:");
         atm.rutTien(300);
-
-
     }
 }
